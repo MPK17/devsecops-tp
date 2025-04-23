@@ -1,9 +1,9 @@
-name: CI
+name: CI DevSecOps
 
 on: [push, pull_request]
 
 jobs:
-  build:
+  devsecops:
     runs-on: ubuntu-latest
 
     steps:
